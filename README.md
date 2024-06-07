@@ -16,7 +16,7 @@ With the model ready, I went on to built the 3 modules of my application-
 1.Price Predictor -  using my pipeline.pkl file mainly
 
 2. Analytics- Perfomed Data Analysis on the cleaned files and plotted relevant visualisations on the webpage
-3. 
-4. Recommender - Using Location, Price and Facilities as the base, created a recommender system which recommends top 5 related properties
+
+3.  Recommender - Using Location, Price and Facilities as the base, created a recommender system which recommends top 5 related properties
 
 
