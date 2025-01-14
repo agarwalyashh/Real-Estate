@@ -5,11 +5,12 @@ import numpy as np
 
 st.set_page_config(page_title='Demo')
 
-with open('df.pkl', 'rb') as file:
+with open(r'C:\Users\ASUS\Desktop\New folder\Real-Estate\df.pkl', 'rb') as file:
     df = pickle.load(file)
 
-with open('pipeline.pkl', 'rb') as file:
+with open(r'C:\Users\ASUS\Desktop\New folder\Real-Estate\pipeline.pkl', 'rb') as file:
     pipeline = pickle.load(file)
+
 
 st.header('Enter your inputs for the desired flat')
 bedroom = float(st.selectbox('Number of Bedrooms', sorted(df['bedRoom'].unique().tolist())))
